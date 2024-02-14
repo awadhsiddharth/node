@@ -2,6 +2,7 @@
 const { log } = require('console');
 const os = require('os');
 
+
 // infor abt current user
 // const user = os.userInfo();
 // console.log(user);

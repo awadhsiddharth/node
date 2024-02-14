@@ -5,6 +5,7 @@ console.log('start');
 // to use all we write
 // const fs= require('fs')
 
+
 readFile('./content/first.txt', 'utf8', (error, result) => {
     if (error) {
         console.log(error);
