@@ -67,5 +67,9 @@ conn.connect((err) => {
             // res.affectedRows --> count of affected rows in the table
             console.log(`Number of records inserted: ` + res.affectedRows);
         }
+       console.log(res.affectedRows);
     });
 });
+
+
+
