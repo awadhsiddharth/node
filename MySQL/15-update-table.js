@@ -14,14 +14,14 @@ conn.connect((err) => {
     else {
         console.log('Db Connected!');
     }
-    var sql = 'DELETE FROM employee WHERE address= "Mountain 21" ';
+
+    const sql = 'UPDATE employee SET address ="Hudco Place" WHERE address ="Andrewsganj"';
+    // const sql1 = "Select * from employee where address ='Andrewsganj'";
     conn.query(sql, (err, res) => {
         if (err) {
             console.error(err);
         } else {
-            console.log(`Numbers of records deleted : ` + res.affectedRows);
+            console.log(res);
         }
-        console.log(res.fieldCount);
-        console.log(res.serverStatus);
     });
 });
