@@ -10,6 +10,7 @@ if(!fs.existsSync('./new')){
     });
 }
 
+// if a directory exists, then remove the directory
 if(fs.existsSync('./new')){
     fs.rmdir('./new', (err) => {
         if (err) {
