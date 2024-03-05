@@ -1,6 +1,4 @@
-
 // Global - NO WINDOW!
-
 // __dirname - path to current directory
 // __filename - filename
 // require - function to use modules(CommonJS)
