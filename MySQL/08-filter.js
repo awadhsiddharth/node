@@ -7,6 +7,7 @@ const conn = myd.createConnection({
     database: 'mydb'
 });
 
+
 conn.connect((err) => {
     if (err) {
         console.error(err);
