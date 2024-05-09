@@ -6,6 +6,7 @@
 //     database: 'mydb'
 // });
 
+
 // con.connect((err) => {
 //     if (err) {
 //         console.error('Error while connecting to database!');
