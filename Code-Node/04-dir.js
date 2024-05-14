@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-
 // if a directory doesn't exist then create a directory
 if(!fs.existsSync('./new')){
     fs.mkdir('./new', (err) => {
