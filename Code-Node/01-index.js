@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs'); 
 
 fs.readFile('./Files/starter.txt', 'utf8', (err, data) => {
     if (err) throw err;
