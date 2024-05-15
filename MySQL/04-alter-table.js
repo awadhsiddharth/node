@@ -6,7 +6,6 @@ const conn = mysql.createConnection({
     database: 'mydb'
 });
 
-
 conn.connect((err) => {
     if (err) {
         console.error(`Error while connecting to darabase!`)
